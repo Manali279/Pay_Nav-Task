@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".infoPage"
+    android:background="#000000">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layout_field_vpa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:textColorHint="#ffffff"
+        app:errorEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/field_vpa"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="120dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="#ffffff"
+            android:ems="10"
+            android:hint="VPA(Payee UPI ID)"
+            android:inputType="textPersonName"
+            android:textColor="#ffffff" />
+    </com.google.android.material.textfield.TextInputLayout>
+<!--            <EditText-->
+<!--                android:id="@+id/field_vpa"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:hint="VPA" />-->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layout_field_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:textColorHint="#ffffff"
+        app:errorEnabled="true">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/field_name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#ffffff"
+        android:ems="10"
+        android:hint="Payee Name"
+        android:inputType="textPersonName"
+        android:textColor="#ffffff" />
+    </com.google.android.material.textfield.TextInputLayout>
+<!--            <EditText-->
+<!--                android:id="@+id/field_name"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:hint="Payee Name" />-->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layout_field_transaction_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:textColorHint="#ffffff"
+        app:errorEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/field_transaction_id"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="120dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="#ffffff"
+            android:ems="10"
+            android:hint="Transaction ID"
+            android:textColor="#ffffff" />
+    </com.google.android.material.textfield.TextInputLayout>
+<!--            <EditText-->
+<!--                android:id="@+id/field_transaction_id"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:hint="Transaction ID" />-->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layout_field_transaction_ref_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:textColorHint="#ffffff"
+        app:errorEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/field_transaction_ref_id"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="120dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="#ffffff"
+            android:ems="10"
+            android:hint="Transaction Ref ID"
+            android:textColor="#ffffff" />
+    </com.google.android.material.textfield.TextInputLayout>
+<!--            <EditText-->
+<!--                android:id="@+id/field_transaction_ref_id"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:hint="Transaction Ref ID" />-->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layout_field_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:textColorHint="#ffffff"
+        app:errorEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/field_description"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="120dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="#ffffff"
+            android:ems="10"
+            android:hint="Payment Description"
+            android:textColor="#ffffff" />
+    </com.google.android.material.textfield.TextInputLayout>
+<!--            <EditText-->
+<!--                android:id="@+id/field_description"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:hint="Description" />-->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layout_field_amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:textColorHint="#ffffff"
+        app:errorEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/field_amount"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="120dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="#ffffff"
+            android:ems="10"
+            android:hint="Payment Amount"
+            android:textColor="#ffffff" />
+    </com.google.android.material.textfield.TextInputLayout>
+<!--            <EditText-->
+<!--                android:id="@+id/field_amount"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:hint="Amount (XX.XX)" />-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text="Select the app:"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="25dp" />
+
+            <RadioGroup
+                android:id="@+id/radioAppChoice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/app_amazonpay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="AmazonPay"
+                    android:textColor="#ffffff"/>
+
+                <RadioButton
+                    android:id="@+id/app_bhim_upi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="BHIM UPI"
+                    android:textColor="#ffffff"/>
+
+                <RadioButton
+                    android:id="@+id/app_google_pay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Google Pay"
+                    android:textColor="#ffffff"/>
+
+                <RadioButton
+                    android:id="@+id/app_phonepe"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PhonePe"
+                    android:textColor="#ffffff"/>
+
+                <RadioButton
+                    android:id="@+id/app_paytm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Paytm"
+                    android:textColor="#ffffff"/>
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/button_pay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Pay"
+                android:textColor="#ffffff"
+                android:background="@drawable/border"/>
+    <ProgressBar
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        />
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:id="@+id/textView_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="16dp"
+                android:text="Click above button to Pay"
+                android:textColor="#000000"
+                android:textSize="19sp" />
+</LinearLayout>
+    </ScrollView>
+</androidx.appcompat.widget.LinearLayoutCompat>
